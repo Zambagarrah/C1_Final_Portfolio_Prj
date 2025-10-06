@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.6;
+  background: #f4f4f4;
+  color: #333;
+  scroll-behavior: smooth;
+}
+
+/* Header */
+header {
+  background: #222;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Sections */
+main {
+  padding: 20px;
+}
+
+section {
+  margin: 60px 0;
+}
+
+/* Projects */
+.project-card {
+  background: white;
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  transition: transform 0.3s;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+}
+
+/* Skills */
+.skill {
+  margin: 15px 0;
+}
+
+.progress {
+  background: #ddd;
+  height: 10px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.progress span {
+  display: block;
+  height: 100%;
+  background: #222;
+}
+
+/* Contact form */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 400px;
+}
+
+form input, form textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+form button {
+  padding: 10px;
+  background: #222;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+form button:hover {
+  background: #444;
+}
+
+/* Footer */
+footer {
+  background: #222;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin-top: 30px;
+}
+
+/* Dark mode */
+.dark-mode {
+  background: #121212;
+  color: #f4f4f4;
+}
+
+.dark-mode header {
+  background: #333;
+}
+
+.dark-mode .project-card {
+  background: #1e1e1e;
+  color: #f4f4f4;
+}
+
+/* Animations */
+.fade-in {
+  opacity: 1;
+  transform: translateY(20px);
+  transition: all 0.6s ease-out;
+}
+
+.fade-in .show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Responsive (Mobile First) */
+@media (max-width: 768px) {
+  nav ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  header {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  form {
+    width: 100%;
+  }
+} 
