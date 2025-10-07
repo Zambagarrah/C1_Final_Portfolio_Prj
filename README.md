@@ -1,25 +1,24 @@
-# Personal Portfolio Project.
+# Personal Portfolio Project
 
-# N/B:- This is your Final project and will determine whether you're actually worthy of graduation.
-## Unda ufala kosa kugraduate
+Welcome to your first web development journey! This project will help you build your own portfolio website using **HTML**, **CSS**, and eventually **JavaScript**. You'll showcase your skills, projects, and personality all while learning how to work with GitHub and modern web tools.
+
+# N/B:: This is your Final project and will determine whether you're actually worthy of graduation.
 
 ---
-## Phase 1: Setup & Forking.
+
+## Phase 1: Setup & Forking
 
 1. **Fork the Repository**
-   - Go to [This Repo](https://github.com/Zambagarrah/Capstone_Prjs).
-   - Fork your branch i.e the one with your name **DON'T FORK THE MAIN BRANCH/ SOMEONE ELSE'S BRANCH**. (If your name isn't on the branch list contact me).
+   - Go to [This Repo](https://github.com/Zambagarrah/Capstone_Prjs)
+   - Fork your branch i.e the one with your name **DON'T FORK THE MAIN BRANCH/ SOMEONE ELSE'S BRANCH**. (If your name isn't on the branch list contact me)
   
 2. **Clone Your Fork Locally**
    ```bash
    git clone https://github.com/YOUR-USERNAME/YOUR-FORKED-REPO.git
    cd YOUR-FORKED-REPO
    ```
-3. **Work on it as you Push & Commit regularly**
-
----
    
-## Phase 2: HTML & CSS Foundation.
+## Phase 2: HTML & CSS Foundation
 
 1. **Create Your Project Structure**
    ```Code
@@ -41,23 +40,21 @@
       > Fun Facts or Hobbies.
   
 3. **Style with CSS**
-  - Link your main.css file.
-  - Use Flexbox or Grid for layout.
-  - Choose a color palette that reflects your personality.
-  - Commit Often.
+  - Link your main.css file
+  - Use Flexbox or Grid for layout
+  - Choose a color palette that reflects your personality
+  - Commit Often
     > Example commit messages:
     ```
     feat: added About Me section with placeholder text
     style: applied flexbox layout to project cards```
 
----
-
-## Phase 3: JavaScript Enhancements (As You Learn).
+## Phase 3: JavaScript Enhancements (As You Learn)
 
 1. **Add Interactivity**
-  - Buttons that toggle content.
-  - Light/dark mode switch.
-  - Form validation for contact section.
+  - Buttons that toggle content
+  - Light/dark mode switch
+  - Form validation for contact section
 
 2. **Organize Your JS**
 
@@ -67,51 +64,51 @@
     │   └── main.js
   ```
 3. **Progressive Enhancement**
-  - Don’t wait to be perfect; add features as you learn.
-  - Document what you plan to add in future commits.
+  - Don’t wait to be perfect; add features as you learn
+  - Document what you plan to add in future commits
 
----
-
-## Phase 4: Updates, Feedback & Showcase.
+## Phase 4: Updates, Feedback & Showcase
 
 1. **Push Regularly**
 
   ```bash
   git add .
-  git commit -m "feat: added responsive navbar."
+  git commit -m "feat: added responsive navbar"
   git push origin your-branch-name
-   ```
+```
 
 2. **Peer Review**
-- Share it with classmates n facilitators.
-- Ask for feedback on design, layout, and code clarity.
+- Share your branch with classmates or mentors
+- Ask for feedback on design, layout, and code clarity
 
 3. **Prepare for Showcase**
-  - Add a README to your portfolio folder explaining your design choices.
-  - Include screenshots or a Loom video walkthrough.
+  - Add a README to your portfolio folder explaining your design choices
+  - Include screenshots or a Loom video walkthrough
 
-## Final Tips & Recommendations.
+## Final Tips & Recommendations
 
-  - **Use Semantic HTML:** `<header>`, `<main>`, `<footer>` help with accessibility and SEO(Search Engine Optimization).
-  - **Mobile First:** Test your site on phones tablets, laptops n Comps.
-  - **Keep It Personal:** Add your favorite quote, a fun animation, or a local touch: just make it yours.
+  - **Use Semantic HTML:** `<header>, <main>, <footer>` help with accessibility and SEO.
+  - **Mobile First:** Test your site on phones and tablets.
+  - **Keep It Personal:** Add your favorite quote, a fun animation, or a local touch.
   - **Document Your Journey:** Use commit messages and comments to explain your learning.
+  - **Celebrate Progress:** Every update is a win—track your growth!
 
 ## GitHub Pages Deployment
 
-  - Go to your repo’s settings.
-  - Scroll to Pages.
-  - Select your branch and `/root` folder.
+  - Go to your repo’s settings
+  - Scroll to Pages
+  - Select your branch and /root folder
   - Save and visit your live site at:
   ```Code
   https://your-username.github.io/your-repo-name/
   ```
 You can ask for help if needed.
-Here are the connects 
+Here are the connects of the Team
    - [Me ](https://github.com/Zambagarrah/)
    - [Avril](https://github.com/almasi-y)
    - [Emmanuel]()
    - [Marvin](https://github.com/mavoochie)
    - [Lisa](https://github.com/lisamswt/)
 
-**Good Luck! '<)**
+Happy building! Your portfolio is not just a website it's your story, your skills, and your spark.
+
