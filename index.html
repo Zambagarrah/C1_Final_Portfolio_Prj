@@ -1,0 +1,330 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double+Ink:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <!-- Header & Navigation -->
+    <header>
+        <div class="container">
+            <nav>
+                <a href="#" class="logo">Portfolio</a>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="nav-right">
+                    <button class="theme-toggle" id="themeToggle">
+                        <i class="fas fa-moon"></i>
+                    </button>
+                    <div class="hamburger" id="hamburger">
+                        <i class="fas fa-bars"></i>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Hi, I'm <span>BRANDON OTIENO</span></h1>
+                <p>A web developer, and I'm passionate about crafting enguaging and functional online experiences. I specialize in <span style="color: red;">HTML</span> for structuring content, <span style="color: red;">CSS</span> for beautiful design, and <span style="color: red;">JavaScript</span> for interactive functionality. I love turning ideas into reality and creting websites that are into reality and creating websites that are both user-friendly and visually appealing. I'm always learning and exited to tackle new challanges.</p>
+                <a href="#projects" class="btn">View My Work</a>
+                <div class="hero-image">
+                    <img src="pictures & screenshorts\file_000000003cc861f88df559a795902732.png" alt="Profile Image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="section-title">
+                <h2>About Me</h2>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>My Journey</h3>
+                    <h4><span style="color:#50C878">HTML</span></h4>
+                    <p>My journey began with <span style="color: red;"><em>HTML</em></span>, the backbone of any webpage. I see it as the structure, the skeleton. It defines the content: the headings, paragraphs, images, and links. I learned how tags create this structure, allowing the browser to understand and display information in an organized way.</p>
+                    <h4><span style="color:#50C878">CSS</span></h4>
+                    <p>Next came <span style="color: red;"><em>CSS</em></span>, the style master. CSS taught me how to make the website to be visually appealing. I understand how to use CSS to control the appearance of the HTML elements: the colors, fonts, layout, and overall visual design. It's like giving the skeleton a stylish outfit!.</p>
+                    <h4><span style="color:#50C878">JavaScript</span></h4>
+                    <p>Finally, i met <span style="color: red;"><em>JavaScript</em></span>, the interactive powerhouse. This is where things get dynamic! JavaScript allows me to understand how to make webpages interactive and responsive. I learned how to make elements move, respond to user actions, and update content on the fly. It's like giving the webpage life!</p>
+                    <p>In summary, <span style="color: red;"><em>HTML</em></span> provides the content, <span style="color: red;"><em>CSS</em></span> styles it, and <span style="color: red;"><em>JavaScript</em></span> adds the interactivity. Together, they create the amazing web experiences we see today!</p>
+
+                    <h3>Callanges faced throughout my journey</h3>
+                        <ol>
+                            <li>
+                                <b><em>HTML</em></b>
+                                <ul>
+                                    <li><b>Semantic Understanding:</b> Grasping the nuances of semantic HTML (using tags like: nav & article) to improve accessibility.</li>
+                                    <li><b>Browser Compatibility:</b> Dealing with different browsers rendering HTML slightly differently, requiring careful testing and adjustments.</li>
+                                </ul>
+                            </li>
+                            <br>
+                            <li>
+                                <b><em>CSS</em></b>
+                                <ul>
+                                    <li><b>Specificity:</b> Understanding the CSS specificity rules and how to override styles effectively.</li>
+                                    <li><b>Layout Challanges</b> Mastering complex layouts using techniques like Flexbox and Grid, which can be tricky at first.</li>
+                                    <li><b>Cross-Browser Issues:</b> Addressing incosistency in how different browsers interpret CSS properties.</li>
+                                </ul>
+                            </li>
+                            <br>
+                            <li>
+                                <b><em>JavaScript</em></b>
+                                <Ul>
+                                    <li><b>Debugging:</b> Learning to debug JavaScript code effectively, which can be a time-consuming process.</li>
+                                    <li><b>Asynchronous Programming:</b> Understanding asynchronous operations (like fetching data from a server) and how to handle them correctly using Promises or async/await.</li>
+                                    <li><b>Frameworks and Libraries:</b> Keeping up with the ever-evolving landscape of JavaScript frameworks (like React, Angular, or Vue.js) and libraries.</li>
+                               </Ul>
+                            </li>
+                        </ol>
+                    <br>
+                    <h3>My Skills</h3>
+                    <div class="skills">
+                        <span class="skill">HTML</span>
+                        <span class="skill">CSS</span>
+                        <span class="skill">JavaScript</span>
+                        <span class="skill">Git/GitHub</span>
+                        <span class="skill">Responsive Design</span>
+                    </div>
+                    <br>
+                    <h3>Fan Facts & hobbies</h3>
+                    <div class="hobbies-grid">
+            <!-- Football Card -->
+            <div class="hobby-card">
+                <div class="hobby-icon">⚽</div>
+                <h2 class="hobby-title">Football</h2>
+                <p>Primary team allegiance: <strong>Chelsea FC</strong></p>
+                <p>My brain is a treasure trove of Chelsea knowledge. You likely know: The significance of #ThePrideOfLondon and the story behind the "Blue is the Colour" anthem. The exact date and opponent for iconic moments: the 2012 Champions League Final in Munich, the Drogba header, the Lampard vs. Bayern penalty. Obscure facts, like which academy graduate has the most appearances or the story of the Chelsea pensioners. Your love goes beyond watching. You're constantly consuming analysis, listening to podcasts (like The Chelsea Podcast or Straight Outta Cobham), and diving deep into the tactical nuances of every game. </p>
+            </div>
+            
+            <!-- Gaming Card -->
+            <div class="hobby-card">
+                <div class="hobby-icon">🎮</div>
+                <h2 class="hobby-title">Gaming</h2>
+                <p>Specialization in eFootball and Call of Duty</p>
+                <p>In eFootball, you know the specific player stats that make a perfect "False 9" or the best low-cost "super-sub" for your Ultimate Team. In Call of Duty, you have the maps memorized – the best camping spots, the quickest flanking routes, and the reload-cancel timings for your favorite weapons. You enjoy the strategic team-building of eFootball, a direct parallel to your Fantasy Football hobby. You thrive on the fast-paced, competitive adrenaline of Call of Duty, a different kind of thrill from football.</p>
+            </div>
+            
+            <!-- Quotes Card -->
+            <div class="hobby-card">
+                <div class="hobby-icon">💬</div>
+                <h2 class="hobby-title">Quotes</h2>
+                <p>Collector and curator of meaningful statements</p>
+                <p>You probably have a mental (or physical) library of powerful quotes. A classic Chelsea-related one you might appreciate is from the legendary manager José Mourinho: "I'm not the one who is obsessed with other clubs. They are obsessed with me." You likely collect quotes that resonate with you – about perseverance (fitting for football comebacks), strategy (for gaming and fantasy), or creativity (for your photography and music tastes).</p>
+            </div>
+            
+            <!-- Fantasy Football Card -->
+            <div class="hobby-card">
+                <div class="hobby-icon">📊</div>
+                <h2 class="hobby-title">Fantasy Football</h2>
+                <p>Active in EPL Fantasy and Champions League Fantasy</p>
+                <p>This is where your football knowledge gets tested. You know:  Which "budget" defender has the best chance of a "clean sheet" in a given gameweek.The "expected goals (xG)" and "expected assists (xA)" stats for a mid-table midfielder.  The pain and joy of being "differentials" – picking a less popular player who scores big. This is your strategic command center. You spend hours analyzing fixtures, form, and stats. It’s a game of intellect that perfectly complements the passion of being a pure fan.</p>
+            </div>
+            
+            <!-- Media Card -->
+            <div class="hobby-card">
+                <div class="hobby-icon">🎬</div>
+                <h2 class="hobby-title">Movies, Music & Animation</h2>
+                <p>Multimedia enthusiast and critic</p>
+                <p>You connect scenes and sounds to emotions. You might associate the "Inception Horn" (BWAAAAMP) with a tense moment in a game or a movie's climax, or a specific song with a pivotal football moment in a film.  This is your relaxation and inspiration. You appreciate a great soundtrack, a well-animated sequence, or a powerful cinematic story. It's the creative fuel for your other hobbies.</p>
+            </div>
+            
+            <!-- Photography & Analysis Card -->
+            <div class="hobby-card">
+                <div class="hobby-icon">📸</div>
+                <h2 class="hobby-title">Photography & Analysis</h2>
+                <p>Visual storyteller and tactical analyst</p>
+                <p>You don't just see a goal; you see the composition of the play. You appreciate the "visual story" of a match, much like a photographer frames a shot. This is a brilliant combination. Your love for photography means you have an eye for detail, composition, and capturing a moment. This directly enhances your enjoyment of football analysis, where experts break down the "picture" of the game – the tactical shapes, the movement off the ball, the key moments that a casual fan might miss.</p>
+            </div>
+        </div>
+                </div>
+                 <div class="card">
+                    <h2>My Web Journey</h2>
+                    <ul class="steps">
+                        <li class="html">✨ Started with <b>HTML</b> to build structure</li>
+                        <li class="css">🎨 Learned <b>CSS</b> to style and design</li>
+                        <li class="js">⚡ Explored <b>JavaScript</b> for interactivity</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+        <div class="container">
+            <div class="section-title">
+                <h2>My Projects</h2>
+            </div>
+            <div class="project-grid">
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="pictures & screenshorts\aminaa mohamed.png" alt="Project 1">
+                    </div>
+                    <div class="project-info">
+                        <h3>My Hero Website</h3>
+                        <p>A fully responsive website on my personal local hero. With full responsiveness avd as section for changing English to Swahili.</p>
+                        <div class="project-tags">
+                            <!-- <span class="project-tag"><a href="My Local Hero\hero.html">HTML</a></span> -->
+                            <span class="project-tag"><a href="My Local Hero\hero.css">CSS</a></span>
+                            <span class="project-tag"><a href="My Local Hero\picture">PICTURE</a></span>
+                             <span class="project-tag"><a href="https://github.com/qwerty123-12-max/Project1"><i class="fab fa-github"></i></a></span>
+                        </div>
+                        <a href="My Local Hero\hero.html" class="btn">View Project</a>
+                    </div>
+                </div>
+                
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="pictures & screenshorts\group4.png" alt="Project 2">
+                    </div>
+                    <div class="project-info">
+                        <h3>Mombasa Youth Hub website development</h3>
+                        <p>In this project very group member was tasked with each creating an individual page each. After creating we were to push it to a remote repasitory where the pages were to be joined into one website. I was tasked with creating a Swahili Glossary Page which allows the user to switch from English to Swahili.</p>
+                        <div class="project-tags">
+                            <!-- <span class="project-tag"><a href="Mombasa-Youth-Hub\projects.html">HTML</a></span> -->
+                            <span class="project-tag"><a href="Mombasa-Youth-Hub\style.css">CSS</a></span>
+                            <span class="project-tag"><a href="https://github.com/fathiyah24/Mombasa-Youth-Hub"><i class="fab fa-github"></i></a></span>
+                        </div>
+                        <a href="Mombasa-Youth-Hub\projects.html" class="btn">View Project</a>
+                    </div>
+                </div>
+                
+    </section> 
+    <br>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-title">
+                <h2>Contact Me</h2>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Get In Touch</h3>
+                    <p>Have a question or want to work together? Drop me a line below.</p>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div>
+                            <h4>Location</h4>
+                            <p>Mombasa, Kenya</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div>
+                            <h4>Email</h4>
+                            <p>brandonotieno56@gmail.com</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div>
+                            <h4>Phone</h4>
+                            <p>+254 713 312 586</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Your Name</label>
+                            <input type="text" id="name" class="form-control" placeholder="Enter Your Name"required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Your Email</label>
+                            <input type="email" id="email" class="form-control" placeholder="Enter Your Email"required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" class="form-control" placeholder="Enter Your Subject"required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" class="form-control" placeholder="Enter Your Message"required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <br>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>Portfolio</h3>
+                    <p>A personal portfolio website showcasing my projects, skills, and experience as a web developer.</p>
+                    <p>Follow me on the following social media platforms.</p>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/brandon.otieno.30951"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://x.com/brandonoti79295"><i class="fas\b fa-x"></i></a>
+                        <a href="https://www.linkedin.com/in/brandon-otieno-501a06313"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://github.com/qwerty123-12-max"><i class="fab fa-github"></i></a>
+                        <a href="https://wa.me/254713312586?text=Hello"target="_blank"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Contact Info</h3>
+                    <ul class="footer-links">
+                        <li><i class="fas fa-map-marker-alt"></i> Mombasa, Kenya</li>
+                        <li><i class="fas fa-phone"></i> +254 713 312 586</li>
+                        <li><i class="fas fa-envelope"></i> brandonotieno56@gmail.com</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="copyright">
+                <p>&copy; 2025 Brandon Otieno. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
