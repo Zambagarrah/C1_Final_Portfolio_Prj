@@ -4,6 +4,32 @@
     --bg-color: #1f242d;
     --second-bg-color: #323946;
     --text-color: #fff;
-    --main-color: #0ef;
-    --back-color: radial-gradient(circle farthest-corner at 10% 20%, rgb(49, 50, 65) 50%, rgb(2, 175, 255) 100.2% );;
+    --main-color: rgb(30, 255, 0);
+    --back-color: radial-gradient(circle farthest-corner at 10% 20%, rgb(49, 50, 65) 50%, rgb(30, 255, 0) 100.2% );;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Poppins',sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+    overflow: hidden4;
+}
+
+body {
+    background: var(--bg-color);
+    color: var(--text-color);
+}
+
+section {
+    min-height: 100vh;
+    padding: 10rem 9% 2rem;
 }
